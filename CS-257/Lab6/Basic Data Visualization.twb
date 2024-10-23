@@ -1,0 +1,1239 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20242.24.0910.0334                               -->
+<workbook original-version='18.1' source-build='2024.2.3 (20242.24.0910.0334)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='video_games' inline='true' name='federated.12kxyxu0o6l9np17l36a019nrsxg' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='video_games' name='textscan.0i5v0z01i6tegr12zrdym0u8xe9x'>
+            <connection class='textclean' cleaning='yes' compat='no' csvFile='/Users/boraytuna/Downloads/Other/video_games.csv' dataRefreshTime='' directory='/Users/boraytuna/Downloads/Other' filename='/var/folders/z3/vkmf1fjx0n7_z7r3f4zldw2c0000gn/T/tableau-temp/08pa4tb11hdw2b16sc0hg0xdxlri/video_games.csv.xlsx' interpretationMode='8' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0i5v0z01i6tegr12zrdym0u8xe9x' name='video_games.csv' table='[video_games#csv$]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:AJ1213:no:A1:AJ1213:1' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Title' ordinal='0' />
+            <column datatype='boolean' name='Features.Handheld?' ordinal='1' />
+            <column datatype='integer' name='Features.Max Players' ordinal='2' />
+            <column datatype='boolean' name='Features.Multiplatform?' ordinal='3' />
+            <column datatype='boolean' name='Features.Online?' ordinal='4' />
+            <column datatype='string' name='Metadata.Genres' ordinal='5' />
+            <column datatype='boolean' name='Metadata.Licensed?' ordinal='6' />
+            <column datatype='string' name='Metadata.Publishers' ordinal='7' />
+            <column datatype='boolean' name='Metadata.Sequel?' ordinal='8' />
+            <column datatype='integer' name='Metrics.Review Score' ordinal='9' />
+            <column datatype='real' name='Metrics.Sales' ordinal='10' />
+            <column datatype='real' name='Metrics.Used Price' ordinal='11' />
+            <column datatype='string' name='Release.Console' ordinal='12' />
+            <column datatype='string' name='Release.Rating' ordinal='13' />
+            <column datatype='boolean' name='Release.Re-release?' ordinal='14' />
+            <column datatype='integer' name='Release.Year' ordinal='15' />
+            <column datatype='real' name='Length.All PlayStyles.Average' ordinal='16' />
+            <column datatype='real' name='Length.All PlayStyles.Leisure' ordinal='17' />
+            <column datatype='real' name='Length.All PlayStyles.Median' ordinal='18' />
+            <column datatype='integer' name='Length.All PlayStyles.Polled' ordinal='19' />
+            <column datatype='real' name='Length.All PlayStyles.Rushed' ordinal='20' />
+            <column datatype='real' name='Length.Completionists.Average' ordinal='21' />
+            <column datatype='real' name='Length.Completionists.Leisure' ordinal='22' />
+            <column datatype='real' name='Length.Completionists.Median' ordinal='23' />
+            <column datatype='integer' name='Length.Completionists.Polled' ordinal='24' />
+            <column datatype='real' name='Length.Completionists.Rushed' ordinal='25' />
+            <column datatype='real' name='Length.Main + Extras.Average' ordinal='26' />
+            <column datatype='real' name='Length.Main + Extras.Leisure' ordinal='27' />
+            <column datatype='real' name='Length.Main + Extras.Median' ordinal='28' />
+            <column datatype='integer' name='Length.Main + Extras.Polled' ordinal='29' />
+            <column datatype='real' name='Length.Main + Extras.Rushed' ordinal='30' />
+            <column datatype='real' name='Length.Main Story.Average' ordinal='31' />
+            <column datatype='real' name='Length.Main Story.Leisure' ordinal='32' />
+            <column datatype='real' name='Length.Main Story.Median' ordinal='33' />
+            <column datatype='integer' name='Length.Main Story.Polled' ordinal='34' />
+            <column datatype='real' name='Length.Main Story.Rushed' ordinal='35' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0i5v0z01i6tegr12zrdym0u8xe9x' name='video_games.csv' table='[video_games#csv$]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:AJ1213:no:A1:AJ1213:1' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Title' ordinal='0' />
+            <column datatype='boolean' name='Features.Handheld?' ordinal='1' />
+            <column datatype='integer' name='Features.Max Players' ordinal='2' />
+            <column datatype='boolean' name='Features.Multiplatform?' ordinal='3' />
+            <column datatype='boolean' name='Features.Online?' ordinal='4' />
+            <column datatype='string' name='Metadata.Genres' ordinal='5' />
+            <column datatype='boolean' name='Metadata.Licensed?' ordinal='6' />
+            <column datatype='string' name='Metadata.Publishers' ordinal='7' />
+            <column datatype='boolean' name='Metadata.Sequel?' ordinal='8' />
+            <column datatype='integer' name='Metrics.Review Score' ordinal='9' />
+            <column datatype='real' name='Metrics.Sales' ordinal='10' />
+            <column datatype='real' name='Metrics.Used Price' ordinal='11' />
+            <column datatype='string' name='Release.Console' ordinal='12' />
+            <column datatype='string' name='Release.Rating' ordinal='13' />
+            <column datatype='boolean' name='Release.Re-release?' ordinal='14' />
+            <column datatype='integer' name='Release.Year' ordinal='15' />
+            <column datatype='real' name='Length.All PlayStyles.Average' ordinal='16' />
+            <column datatype='real' name='Length.All PlayStyles.Leisure' ordinal='17' />
+            <column datatype='real' name='Length.All PlayStyles.Median' ordinal='18' />
+            <column datatype='integer' name='Length.All PlayStyles.Polled' ordinal='19' />
+            <column datatype='real' name='Length.All PlayStyles.Rushed' ordinal='20' />
+            <column datatype='real' name='Length.Completionists.Average' ordinal='21' />
+            <column datatype='real' name='Length.Completionists.Leisure' ordinal='22' />
+            <column datatype='real' name='Length.Completionists.Median' ordinal='23' />
+            <column datatype='integer' name='Length.Completionists.Polled' ordinal='24' />
+            <column datatype='real' name='Length.Completionists.Rushed' ordinal='25' />
+            <column datatype='real' name='Length.Main + Extras.Average' ordinal='26' />
+            <column datatype='real' name='Length.Main + Extras.Leisure' ordinal='27' />
+            <column datatype='real' name='Length.Main + Extras.Median' ordinal='28' />
+            <column datatype='integer' name='Length.Main + Extras.Polled' ordinal='29' />
+            <column datatype='real' name='Length.Main + Extras.Rushed' ordinal='30' />
+            <column datatype='real' name='Length.Main Story.Average' ordinal='31' />
+            <column datatype='real' name='Length.Main Story.Leisure' ordinal='32' />
+            <column datatype='real' name='Length.Main Story.Median' ordinal='33' />
+            <column datatype='integer' name='Length.Main Story.Polled' ordinal='34' />
+            <column datatype='real' name='Length.Main Story.Rushed' ordinal='35' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[video_games.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AJ1213:no:A1:AJ1213:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>30300</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Title</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Title]</local-name>
+            <parent-name>[video_games.csv]</parent-name>
+            <remote-alias>Title</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[video_games.csv_683FCBD81D6949EC8AD5E58AC0631A20]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Features.Handheld?</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Features.Handheld?]</local-name>
+            <parent-name>[video_games.csv]</parent-name>
+            <remote-alias>Features.Handheld?</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WINBOOL&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[video_games.csv_683FCBD81D6949EC8AD5E58AC0631A20]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Features.Max Players</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Features.Max Players]</local-name>
+            <parent-name>[video_games.csv]</parent-name>
+            <remote-alias>Features.Max Players</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[video_games.csv_683FCBD81D6949EC8AD5E58AC0631A20]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Features.Multiplatform?</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Features.Multiplatform?]</local-name>
+            <parent-name>[video_games.csv]</parent-name>
+            <remote-alias>Features.Multiplatform?</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WINBOOL&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[video_games.csv_683FCBD81D6949EC8AD5E58AC0631A20]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Features.Online?</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Features.Online?]</local-name>
+            <parent-name>[video_games.csv]</parent-name>
+            <remote-alias>Features.Online?</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WINBOOL&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[video_games.csv_683FCBD81D6949EC8AD5E58AC0631A20]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Metadata.Genres</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Metadata.Genres]</local-name>
+            <parent-name>[video_games.csv]</parent-name>
+            <remote-alias>Metadata.Genres</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[video_games.csv_683FCBD81D6949EC8AD5E58AC0631A20]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Metadata.Licensed?</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Metadata.Licensed?]</local-name>
+            <parent-name>[video_games.csv]</parent-name>
+            <remote-alias>Metadata.Licensed?</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WINBOOL&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[video_games.csv_683FCBD81D6949EC8AD5E58AC0631A20]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Metadata.Publishers</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Metadata.Publishers]</local-name>
+            <parent-name>[video_games.csv]</parent-name>
+            <remote-alias>Metadata.Publishers</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[video_games.csv_683FCBD81D6949EC8AD5E58AC0631A20]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Metadata.Sequel?</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Metadata.Sequel?]</local-name>
+            <parent-name>[video_games.csv]</parent-name>
+            <remote-alias>Metadata.Sequel?</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WINBOOL&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[video_games.csv_683FCBD81D6949EC8AD5E58AC0631A20]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Metrics.Review Score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Metrics.Review Score]</local-name>
+            <parent-name>[video_games.csv]</parent-name>
+            <remote-alias>Metrics.Review Score</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[video_games.csv_683FCBD81D6949EC8AD5E58AC0631A20]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Metrics.Sales</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Metrics.Sales]</local-name>
+            <parent-name>[video_games.csv]</parent-name>
+            <remote-alias>Metrics.Sales</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[video_games.csv_683FCBD81D6949EC8AD5E58AC0631A20]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Metrics.Used Price</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Metrics.Used Price]</local-name>
+            <parent-name>[video_games.csv]</parent-name>
+            <remote-alias>Metrics.Used Price</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[video_games.csv_683FCBD81D6949EC8AD5E58AC0631A20]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Release.Console</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Release.Console]</local-name>
+            <parent-name>[video_games.csv]</parent-name>
+            <remote-alias>Release.Console</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[video_games.csv_683FCBD81D6949EC8AD5E58AC0631A20]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Release.Rating</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Release.Rating]</local-name>
+            <parent-name>[video_games.csv]</parent-name>
+            <remote-alias>Release.Rating</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[video_games.csv_683FCBD81D6949EC8AD5E58AC0631A20]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Release.Re-release?</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Release.Re-release?]</local-name>
+            <parent-name>[video_games.csv]</parent-name>
+            <remote-alias>Release.Re-release?</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WINBOOL&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[video_games.csv_683FCBD81D6949EC8AD5E58AC0631A20]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Release.Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Release.Year]</local-name>
+            <parent-name>[video_games.csv]</parent-name>
+            <remote-alias>Release.Year</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[video_games.csv_683FCBD81D6949EC8AD5E58AC0631A20]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Length.All PlayStyles.Average</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Length.All PlayStyles.Average]</local-name>
+            <parent-name>[video_games.csv]</parent-name>
+            <remote-alias>Length.All PlayStyles.Average</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[video_games.csv_683FCBD81D6949EC8AD5E58AC0631A20]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Length.All PlayStyles.Leisure</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Length.All PlayStyles.Leisure]</local-name>
+            <parent-name>[video_games.csv]</parent-name>
+            <remote-alias>Length.All PlayStyles.Leisure</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[video_games.csv_683FCBD81D6949EC8AD5E58AC0631A20]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Length.All PlayStyles.Median</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Length.All PlayStyles.Median]</local-name>
+            <parent-name>[video_games.csv]</parent-name>
+            <remote-alias>Length.All PlayStyles.Median</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[video_games.csv_683FCBD81D6949EC8AD5E58AC0631A20]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Length.All PlayStyles.Polled</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Length.All PlayStyles.Polled]</local-name>
+            <parent-name>[video_games.csv]</parent-name>
+            <remote-alias>Length.All PlayStyles.Polled</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[video_games.csv_683FCBD81D6949EC8AD5E58AC0631A20]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Length.All PlayStyles.Rushed</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Length.All PlayStyles.Rushed]</local-name>
+            <parent-name>[video_games.csv]</parent-name>
+            <remote-alias>Length.All PlayStyles.Rushed</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[video_games.csv_683FCBD81D6949EC8AD5E58AC0631A20]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Length.Completionists.Average</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Length.Completionists.Average]</local-name>
+            <parent-name>[video_games.csv]</parent-name>
+            <remote-alias>Length.Completionists.Average</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[video_games.csv_683FCBD81D6949EC8AD5E58AC0631A20]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Length.Completionists.Leisure</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Length.Completionists.Leisure]</local-name>
+            <parent-name>[video_games.csv]</parent-name>
+            <remote-alias>Length.Completionists.Leisure</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[video_games.csv_683FCBD81D6949EC8AD5E58AC0631A20]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Length.Completionists.Median</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Length.Completionists.Median]</local-name>
+            <parent-name>[video_games.csv]</parent-name>
+            <remote-alias>Length.Completionists.Median</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[video_games.csv_683FCBD81D6949EC8AD5E58AC0631A20]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Length.Completionists.Polled</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Length.Completionists.Polled]</local-name>
+            <parent-name>[video_games.csv]</parent-name>
+            <remote-alias>Length.Completionists.Polled</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[video_games.csv_683FCBD81D6949EC8AD5E58AC0631A20]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Length.Completionists.Rushed</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Length.Completionists.Rushed]</local-name>
+            <parent-name>[video_games.csv]</parent-name>
+            <remote-alias>Length.Completionists.Rushed</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[video_games.csv_683FCBD81D6949EC8AD5E58AC0631A20]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Length.Main + Extras.Average</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Length.Main + Extras.Average]</local-name>
+            <parent-name>[video_games.csv]</parent-name>
+            <remote-alias>Length.Main + Extras.Average</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[video_games.csv_683FCBD81D6949EC8AD5E58AC0631A20]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Length.Main + Extras.Leisure</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Length.Main + Extras.Leisure]</local-name>
+            <parent-name>[video_games.csv]</parent-name>
+            <remote-alias>Length.Main + Extras.Leisure</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[video_games.csv_683FCBD81D6949EC8AD5E58AC0631A20]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Length.Main + Extras.Median</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Length.Main + Extras.Median]</local-name>
+            <parent-name>[video_games.csv]</parent-name>
+            <remote-alias>Length.Main + Extras.Median</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[video_games.csv_683FCBD81D6949EC8AD5E58AC0631A20]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Length.Main + Extras.Polled</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Length.Main + Extras.Polled]</local-name>
+            <parent-name>[video_games.csv]</parent-name>
+            <remote-alias>Length.Main + Extras.Polled</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[video_games.csv_683FCBD81D6949EC8AD5E58AC0631A20]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Length.Main + Extras.Rushed</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Length.Main + Extras.Rushed]</local-name>
+            <parent-name>[video_games.csv]</parent-name>
+            <remote-alias>Length.Main + Extras.Rushed</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[video_games.csv_683FCBD81D6949EC8AD5E58AC0631A20]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Length.Main Story.Average</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Length.Main Story.Average]</local-name>
+            <parent-name>[video_games.csv]</parent-name>
+            <remote-alias>Length.Main Story.Average</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[video_games.csv_683FCBD81D6949EC8AD5E58AC0631A20]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Length.Main Story.Leisure</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Length.Main Story.Leisure]</local-name>
+            <parent-name>[video_games.csv]</parent-name>
+            <remote-alias>Length.Main Story.Leisure</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[video_games.csv_683FCBD81D6949EC8AD5E58AC0631A20]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Length.Main Story.Median</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Length.Main Story.Median]</local-name>
+            <parent-name>[video_games.csv]</parent-name>
+            <remote-alias>Length.Main Story.Median</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[video_games.csv_683FCBD81D6949EC8AD5E58AC0631A20]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Length.Main Story.Polled</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Length.Main Story.Polled]</local-name>
+            <parent-name>[video_games.csv]</parent-name>
+            <remote-alias>Length.Main Story.Polled</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[video_games.csv_683FCBD81D6949EC8AD5E58AC0631A20]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Length.Main Story.Rushed</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Length.Main Story.Rushed]</local-name>
+            <parent-name>[video_games.csv]</parent-name>
+            <remote-alias>Length.Main Story.Rushed</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[video_games.csv_683FCBD81D6949EC8AD5E58AC0631A20]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Release.Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='video_games.csv' datatype='table' name='[__tableau_internal_object_id__].[video_games.csv_683FCBD81D6949EC8AD5E58AC0631A20]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='video_games.csv' id='video_games.csv_683FCBD81D6949EC8AD5E58AC0631A20'>
+            <properties context=''>
+              <relation connection='textscan.0i5v0z01i6tegr12zrdym0u8xe9x' name='video_games.csv' table='[video_games#csv$]' type='table'>
+                <columns character-set='UTF-8' gridOrigin='A1:AJ1213:no:A1:AJ1213:1' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='Title' ordinal='0' />
+                  <column datatype='boolean' name='Features.Handheld?' ordinal='1' />
+                  <column datatype='integer' name='Features.Max Players' ordinal='2' />
+                  <column datatype='boolean' name='Features.Multiplatform?' ordinal='3' />
+                  <column datatype='boolean' name='Features.Online?' ordinal='4' />
+                  <column datatype='string' name='Metadata.Genres' ordinal='5' />
+                  <column datatype='boolean' name='Metadata.Licensed?' ordinal='6' />
+                  <column datatype='string' name='Metadata.Publishers' ordinal='7' />
+                  <column datatype='boolean' name='Metadata.Sequel?' ordinal='8' />
+                  <column datatype='integer' name='Metrics.Review Score' ordinal='9' />
+                  <column datatype='real' name='Metrics.Sales' ordinal='10' />
+                  <column datatype='real' name='Metrics.Used Price' ordinal='11' />
+                  <column datatype='string' name='Release.Console' ordinal='12' />
+                  <column datatype='string' name='Release.Rating' ordinal='13' />
+                  <column datatype='boolean' name='Release.Re-release?' ordinal='14' />
+                  <column datatype='integer' name='Release.Year' ordinal='15' />
+                  <column datatype='real' name='Length.All PlayStyles.Average' ordinal='16' />
+                  <column datatype='real' name='Length.All PlayStyles.Leisure' ordinal='17' />
+                  <column datatype='real' name='Length.All PlayStyles.Median' ordinal='18' />
+                  <column datatype='integer' name='Length.All PlayStyles.Polled' ordinal='19' />
+                  <column datatype='real' name='Length.All PlayStyles.Rushed' ordinal='20' />
+                  <column datatype='real' name='Length.Completionists.Average' ordinal='21' />
+                  <column datatype='real' name='Length.Completionists.Leisure' ordinal='22' />
+                  <column datatype='real' name='Length.Completionists.Median' ordinal='23' />
+                  <column datatype='integer' name='Length.Completionists.Polled' ordinal='24' />
+                  <column datatype='real' name='Length.Completionists.Rushed' ordinal='25' />
+                  <column datatype='real' name='Length.Main + Extras.Average' ordinal='26' />
+                  <column datatype='real' name='Length.Main + Extras.Leisure' ordinal='27' />
+                  <column datatype='real' name='Length.Main + Extras.Median' ordinal='28' />
+                  <column datatype='integer' name='Length.Main + Extras.Polled' ordinal='29' />
+                  <column datatype='real' name='Length.Main + Extras.Rushed' ordinal='30' />
+                  <column datatype='real' name='Length.Main Story.Average' ordinal='31' />
+                  <column datatype='real' name='Length.Main Story.Leisure' ordinal='32' />
+                  <column datatype='real' name='Length.Main Story.Median' ordinal='33' />
+                  <column datatype='integer' name='Length.Main Story.Polled' ordinal='34' />
+                  <column datatype='real' name='Length.Main Story.Rushed' ordinal='35' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Relationship Between Game Ratings And Total Sales</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='video_games' name='federated.12kxyxu0o6l9np17l36a019nrsxg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.12kxyxu0o6l9np17l36a019nrsxg'>
+            <column datatype='string' name='[Metadata.Genres]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Metrics.Review Score]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Metrics.Sales]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Release.Console]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Title]' role='dimension' type='nominal' />
+            <column-instance column='[Metadata.Genres]' derivation='None' name='[none:Metadata.Genres:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Metrics.Review Score]' derivation='None' name='[none:Metrics.Review Score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Metrics.Sales]' derivation='None' name='[none:Metrics.Sales:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Release.Console]' derivation='None' name='[none:Release.Console:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Title]' derivation='None' name='[none:Title:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.12kxyxu0o6l9np17l36a019nrsxg].[none:Metadata.Genres:nk]'>
+            <groupfilter function='level-members' level='[none:Metadata.Genres:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.12kxyxu0o6l9np17l36a019nrsxg].[none:Release.Console:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Release.Console:nk]' member='&quot;Nintendo DS&quot;' />
+              <groupfilter function='member' level='[none:Release.Console:nk]' member='&quot;Nintendo Wii&quot;' />
+              <groupfilter function='member' level='[none:Release.Console:nk]' member='&quot;PlayStation 3&quot;' />
+              <groupfilter function='member' level='[none:Release.Console:nk]' member='&quot;Sony PSP&quot;' />
+              <groupfilter function='member' level='[none:Release.Console:nk]' member='&quot;X360&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.12kxyxu0o6l9np17l36a019nrsxg].[none:Metadata.Genres:nk]</column>
+            <column>[federated.12kxyxu0o6l9np17l36a019nrsxg].[none:Release.Console:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.12kxyxu0o6l9np17l36a019nrsxg].[none:Metrics.Review Score:qk]' scope='cols' value='Review Score (1- 100)' />
+            <format attr='title' class='0' field='[federated.12kxyxu0o6l9np17l36a019nrsxg].[none:Metrics.Sales:qk]' scope='rows' value='Sales (In Millions)' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.12kxyxu0o6l9np17l36a019nrsxg].[none:Title:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+          </pane>
+        </panes>
+        <rows>[federated.12kxyxu0o6l9np17l36a019nrsxg].[none:Metrics.Sales:qk]</rows>
+        <cols>[federated.12kxyxu0o6l9np17l36a019nrsxg].[none:Metrics.Review Score:qk]</cols>
+      </table>
+      <simple-id uuid='{15785B09-3887-4572-AF1E-9C792D7A8A4E}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.12kxyxu0o6l9np17l36a019nrsxg].[none:Release.Console:nk]' type='filter' />
+            <card param='[federated.12kxyxu0o6l9np17l36a019nrsxg].[none:Metadata.Genres:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.12kxyxu0o6l9np17l36a019nrsxg].[none:Metadata.Genres:nk]</field>
+            <field>[federated.12kxyxu0o6l9np17l36a019nrsxg].[none:Metadata.Publishers:nk]</field>
+            <field>[federated.12kxyxu0o6l9np17l36a019nrsxg].[none:Release.Console:nk]</field>
+            <field>[federated.12kxyxu0o6l9np17l36a019nrsxg].[none:Title:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{F67E17F8-211E-43F4-BB82-9B3DDE206FBE}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='384' name='Sheet 1' width='384'>
+      iVBORw0KGgoAAAANSUhEUgAAAYAAAAGACAYAAACkx7W/AAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAgAElEQVR4nOzdaZAc52Hm+X9m3VV9340G0LgB4iYOEgQsUhQv3TLl0diSNuz12DuOkVez
+      +2Ej1jHfdyZiY2YiZmd9bIxnvbZkW9ZlURIlUSRFEiSI+74aVx8A+j6qj7orM9/9UI0mQKEP
+      QujqAuv5RZDs7kJ1Pp1s5JP5Zr6ZljHGICIiZcde6gAiIrI0VAAiImWqpApgrtGoUhupUp65
+      Kc/sjDEll6eUKM/cHmaekioAx3FmfS2XyxUxyfyUZ27KMztjDPl8fqljzCildQPKM5+Hmaek
+      CkBERIpHBSAiUqZUACIiZUoFICJSplQAIiJlSgUgIlKmVAAiImWqaAVQapMpRETK3aIXgDGG
+      RCLB+++/D4Drurz11lu8/fbb9Pf3L/biRURkFv7FXoAxhp6eHsbHxwHIZrMEg0H279+PZVmL
+      vXgREZnFoheAbdts3ryZwcFBADKZDAMDA7z66qs89dRT1NXVzdwCwnVdPM+77/dxXZdsNrvY
+      cRdMeeamPLMzxuB5XskMi5bSugHlmc/DzLPoBfBhtbW1fPnLXyaRSHDkyBFeeOEFAoHAzOt3
+      f3y3bDZLKBQqVsx5Kc/clGd2nufhOA7BYHCpowCltW5AeebzMPMsegF4nsexY8fo7OwkFArR
+      3t7O5cuXcV2X1atXL/biRURkFkUZAtq3bx/79u2b+Vprayue5826ty8iIouv6ENAAD6fD5/P
+      txSLFhFZMvc777OUF8MsSQGIiJSbwsl/w+2RSa7dGqOmMsxjKxuIhgNLVgIqABGRIvCM4fCl
+      2/zs8DWaamNMJDMcvXSbr7+wnepYaElKQAUgIlIEIxMpfnWqi9/91BY2r2oknXX4m5+f4cil
+      27y4Zy1LcRCgewGJiBRBfCqDhcXyxir8PpuKSIBVrTXcHprEW6I5ISoAEZEiqK+KYFnQPTBO
+      znGZSGbp7B2jvaUGW+cAREQ+vuqrIrywZw0/OHiZX53qYiqVY3lTFU8+1rYkwz+gAhARKQrb
+      ttm7aRkrmqq50TdGTUWY9W11hIJ+XQUkIvJxZ9s2yxoqWdZQudRRAJ0DEBEpWyoAEZEypQIQ
+      ESlTKgARkTKlAhARKVMqABGRMqUCEBEpUyoAEZEyVZQCMMbc8xDjO5+XykOxRUTK0aIXgOd5
+      nDhxgu985ztAYeM/MTHBX/3VX5FMJhd78SIiMotFvxWEZVns3r2bqakpoFAIx48f5/HHHwfu
+      fUSaMWbOo4JSO2JQnrkpz9xKKU8pZQHlmc/DylOUArjDGMP169eJRCKkUikmJyeJxWI4jgMU
+      yiGfz9/3+7iuO+trS0F55qY8sys8GtBb6hgzSmndgPLM52HmWfQCMMaQy+VwHId8Pk9lZSXZ
+      bJa+vj7i8TjLli0jEAjM/Pm7P/7w9wkGg4sdd8GUZ27KMzvP83Acp2TylNK6AeWZz8PMU5QC
+      uHjxIuFwmLNnz7Jnzx6WLVtGY2Mj9fX1i714ERGZxaIXgG3b7Nq169e+3trautiLFhGROWge
+      gIhImVIBiIiUKRWAiEiZUgGIiJQpFYCISJlSAYiIlCkVgIhImVIBiIiUKRWAiEiZUgGIiJQp
+      FYCISJlSAYiIlCkVgIhImVIBiIiUKRWAiEiZUgGIiJSpohSA53kkk8mZj6emppiYmCip56KK
+      iJSbRS8Az/M4deoUP/jBDwCYmJjgwoULnD9/nnPnzi324kVEZBaL/khIy7LYtWsXk5OTANTU
+      1LBhwwYuXLhALBbDGDPzZ40x93z+YXO9thSUZ27KM7v5fteLrZSygPLM52HlKUoBfNjIyAjZ
+      bHbmc8dxgMLRQj6fv+/3cV131teWgvLMTXlmZ4yZ83e92Epp3YDyzOdh5ln0AjDGkE6nyeVy
+      pFIpcrkcy5Yto6GhgVOnTrF+/XoCgcDMn7/74w9/n2AwuNhxF0x55qY8s/M8D8dxSiZPKa0b
+      UJ75PMw8RSmAa9euUVVVRUdHB6tXr+b8+fN4nse+ffsWe/EiIjKLRS8A27bZsWPHPV/bv3//
+      Yi9WRETmoXkAIiJlSgUgIlKmVAAiImVKBSAiUqZUACIiZUoFICJSplQAIiJlSgUgIlKmVAAi
+      ImVKBSAiUqZUACIiZUoFICJSplQAIiJlSgUgIlKmVAAiImVKBSAiUqaKUgCu6848FN4Yw9TU
+      FKOjozPPAhYRkeJb9ALwPI/Tp0/zyiuvABCPxzlz5gxXrlzh9OnTi714ERGZxaI/EtKyLHbt
+      2jVzBFBXV8eBAwe4ePEixpiZf6BwdOB53n2/z1yvLQXlmZvyzO7O73wp5SmVLKA883mYeYpS
+      AHfzPI9jx47h8/nYs2fPzNfu/He2YaG5XlsKyjM35ZlbKeUppSygPPN5mHkWvQCMMSQSCTKZ
+      DFNTU2SzWcbHx9m/fz/ZbJZwOIzf75/5s4FAYNbvEwwGFzvuginP3JRndnd2eEolTymtG1Ce
+      +TzMPIt+DsAYQ09PDw0NDXR2dmJZFnV1dVy9epWRkZHFXryIiMxi0Y8AbNtm69at93ytvr5+
+      sRcrIiLz0DwAEZEypQIQESlTKgARkTKlAhARKVMqABGRMqUCEBEpUyoAEZEypQIQESlTKgAR
+      kTKlAhARKVMqABGRMqUCEBEpUyoAEZEypQIQESlTKgARkTKlAhARKVNFK4C7H2Jcag9ZFhEp
+      R0V5JOTFixf57ne/C0Aul+Odd97hvffeW+xFi4jIHIpyBNDe3k5DQwMAPp+PHTt2FGOxIiIy
+      h0V/JrBlWcRiMWy70DU+n49YLDbzujEGx3EAcF131qEh13XJZrOLHXfBlGduyjO7O0Ogxpil
+      jgKU1roB5ZnPw8yz6AUwH8uyCAQCM5/f/fHdstksoVCoWLHmpTxzU57ZeZ6H4zgEg8GljgKU
+      1roB5ZnPw8yz6ENAnudx9OhRUqkUhw4dYmxsjMOHDzM1NcWVK1cWe/EiIjKLRT8CsG2bffv2
+      3fO1Z555ZrEXKyIi89A8ABGRMqUCEBEpUyoAEZEypQIQESlTKgARkTKlAhARKVMqABGRMqUC
+      EBEpUyoAEZEypQIQESlTKgARkTKlAhARKVMqABGRMqUCEBEpUyoAEZEypQIQESlTRSuAu5/1
+      e+eReCIisnQWvQCMMZw7d47vfOc7AKTTaV599VXeeOMNBgYGFnvxIiIyi6I8FH7dunUMDQ0B
+      0N3dzfbt22lqauL48eO0tLQUI4KIiHzIoheAZVlEIhFsu3Cwkc1maWxsxOfzYYzBGDMzHOS6
+      7j1DRXdzXZdsNrvYcRdMeeamPLMzxuB5HsaYpY4ClNa6AeWZz8PMU5QjgLvV19dz+/Zt2tra
+      CIVCWJZFIBCYef3uj++WzWYJhULFijkv5Zmb8szuzjmwYDC41FGA0lo3oDzzeZh5Fv0cgOd5
+      HD16lEwmw6FDh2htbSWZTHL+/Hl27ty52IsXEZFZLPoRgG3b7Nu3756v7d+/HygMD4mIyNIo
+      +hAQaMMvIlIKNBFMRKRMqQBERMqUCkBEpEypAEREypQKQESkTKkARETKlApARKRMqQBERMqU
+      CkBEpEypAEREypQKQESkTKkARETKlApARKRMqQBERMqUCkBEpEypAEREylTRHwjjOA6nTp0C
+      YPfu3fh8vmJHEBERluAI4Pz587S2ttLc3MyZM2eKvXgREZlW9COAcDjM1atXqa+vZ3R0FGMM
+      juMA4Louxpj7vs91XXK5XDGjzkl55qY8szPG4HleyeQppXUDyjOfh5mn6AWwceNGQqEQ6XSa
+      SCRSCOEvxDDGEAgE7vu+uV5bCsozN+WZ3Z2dnlLKUypZQHnm8zDzFL0AUqkUo6OjDA8P88QT
+      T9zzgHjLsuZ8YHypPUxeeeamPPd35yi3VPJAaWUB5ZnPw8pT9AKIRqOsX7+erVu3Eg6Hi714
+      ERGZVvQCsG2bmpqaYi9WREQ+RPMARETKlApARKRMqQBERMqUCkBEpEypAEREypQKQESkTKkA
+      RETKlApARKRMLbgAjDEMDw/T1dVFOp1ezEwiIlIE884ENsZw5swZDh06RE1NDRUVFbz22muE
+      QiG+8pWvUFFRUYycIiLykC3oVhCBQIA/+ZM/we/3Y4whn8+TTqcZHh5WAYiIPKIWVABbtmxh
+      fHycd999l/7+fvr6+vh3/+7fUV1dvdj5RERkkcx7DuDOLZozmQzd3d24rsumTZtIp9Mld4tU
+      ERFZuAXfDbS5uZn9+/ezatUqhoaGtPcvIvKIW3ABjI+P8+Mf/5iqqip8Ph/r168vqafkiIjI
+      R7PgAsjn82zbto2XX34ZAJ/Pt2ihRERk8S24AMLhMOfPn+fWrVvYts2f/umfPtARgOM4HD9+
+      HMdx2LVrF7FY7CN/DxER+c0teCJYVVUVL7/8Mk1NTbz00kszD3L/qHp6eqiqqmLr1q2cPHny
+      gb6HiIj85ha8FR8cHOTQoUN86Utf4p/+6Z9YsWLFA80BaGtr4+///u/x+/289NJLGGNwHAcA
+      13XxPO++73Ndl2w2+5GXt1iUZ27KMzfP80omT6mtG+WZ28PMs+ACsG2bXC5HKpXCcRxs+8Fu
+      I3T16lWef/556urqOHnyJM3NzTNHE8aYWYeVcrkcwWDwgZa5GJRnbsozuzs7PaVyEUUprRtQ
+      nvk8zDwLLoDGxkY+//nP09HRwVe/+lUikcgDLbC2tpZz584Ri8Worq6+Zy7BnTkHsym1eQfK
+      MzfluT9jDFA6eaC0soDyzOdh5VlQAVy4cIFcLsc777wDQFdXF9/4xjceaA9m+fLlNDU14bru
+      A5eIiIj85hZUAJs3bwZg27ZtH7zxAU8CW5ZFKBR6oPeKiMjDs6Ct+IkTJzh48ODM57Zt881v
+      frNkxjBFROSjW1ABrF27lsrKypnPLcvSRDARkUfcggogHo9z/fr1mc8ty2L9+vWLFkpERBbf
+      gq7l9Pv9bNq0iVQqNfPPnSsZRETk0bSgI4C6ujqMMTz11FNA4QjgQecBiIhIaVhQAYyOjvLt
+      b3+bcDgMFE4C/9t/+29VAiIij7AFFUBVVRWtra3Yts2aNWvYs2fPA18GKiIipWFBu/B1dXX8
+      0R/9EV//+tcZHh7m3/ybfzNz/x4REXk0LWg3fnh4mO9///sEAgF27NjBX//1X+sIQETkEbeg
+      I4BMJsPExAQTExO8++67/MVf/IWOAEREHnEL2o1fsWIFf/Znf7bYWUREpIgWVACWZWGMIZfL
+      zez5R6PRRQ0mIiKLa8ED+X19ffyn//SfWLNmDT6fjz/+4z/WvYBERB5hCy6AaDTKrl27Zh4K
+      r5PAIiKPtgXP5PL7/UxOTvK3f/u3fOtb39JJYBGRR9yCduMnJiY4c+bMzHMBbNvWLGARkUfc
+      grfid9/8TTeCExF59M17BGCM4bXXXmP//v0sX74cAMdxePvtt2lqarrnKWEL0d/fT0dHB6lU
+      ikAgwIsvvvhgyUVE5DeyoCGgL37xi/z4xz+mt7d35sHtzz77LFu3bv3IC2xtbaWlpYV33nmH
+      Xbt2feT3i4jIw2GZBY7nfPiP/SZPpc9kMhw8eJAXXngBYOaEsuu6s35f13VL6ilkyjM35Zmd
+      MQbP80omTymtG1Ce+TzMPAu+lvPOhjmTyZBOp6mtrX2gBRpjOH36NDt37pz5nnfPJ5htbkE2
+      my2ph8krz9yUZ3ae5+E4DsFgcKmjAKW1bkB55vMw8yy4AIaHh/nVr35Ff38/Y2Nj/Nmf/dkD
+      zQY2xlBfX09jY+NHfq+IiDw8H+lazuvXrxOJRNi4cSOu6z7YAm2bDRs2/EZDSCIi8ptb8BFA
+      Q0MDX/va14hGoySTSSoqKhYzl4iILLIFF0AikeBb3/oWsViM+vp62traSmpcTEREPpoFF8DY
+      2BibN2/GcRyGhoYeeAhIRERKw4LPAaxcuZJoNEpPTw87d+7U7aBFRB5xCzoCOHv2LEePHgWg
+      traWq1evsn//ft0RVETkEbagLfjGjRtpb2/HGIMxBsuySmpihIiIfHQLKoBwOIwxhv/wH/4D
+      yWQS27b59//+3+uBMCIij7AFj+EMDAywZ88eUqkUUJgRrAIQEXl0Lfgk8PLly1m2bBlVVVXc
+      vn2bcDi8mLlERGSRLagAMpkMly5dYufOnYyMjLBr1y6dABYRecQtqADOnz9PPB7nrbfeoq6u
+      jjNnzpBOpxc7m4iILKIFFUBzczPvvfceb7zxBi+88AI+n0+PhBQRecQtaBxnxYoV/MEf/AHR
+      aJRgMMjnPvc5nQMQEXnELagALMtixYoVM5+vW7du0QKJiEhxaBxHRKRMqQBERMpU0QvAGIPr
+      uiQSCTzPK/biRURkWtELIJ/P8+qrr3Lp0iWGhoaKvXgREZlW9NlcPT091NXVEYlEaGhowBgz
+      89qdm83NZq7XloLyzE155lZKeUopCyjPfB5WnqIXQDqdxrIswuEw7777Lp/85CdxHAcAz/PI
+      5XL3fZ/rurO+thSUZ27KMzfXdUtmo1KK60Z5Zvcw8xS9AFpbW0kkErS1tXH79m0sy7rnpnKz
+      3WAum82W1CMolWduyjM7z/OwLItgMLjUUYDSWjegPPN5mHmKfg6goaGBiooKjh07xu7du4u9
+      eBERmVb0IwDLsti+fXuxFysiIh+ieQAiImVKBSAiUqZUACIiZUoFICJSplQAIiJlSgUgIlKm
+      VAAiImVKBSAiUqZUACIiZUoFICJSplQAIiJlSgUgIlKmVAAiImVKBSAiUqZUACIiZUoFICJS
+      por+QBhjzMzzLP1+Pz6fr9gRRESEJTgCyOfzfP/73+fkyZOMjIwUe/EiIjKt6EcAU1NTVFVV
+      sXbtWhobGzHGzLxmjLnn8w+b67WloDxzU565lVKeUsoCyjOfh5XHMkX+yXK5HH19fXR3dxON
+      Rtm7dy+O4wDgui62ff+DEsdx8PuL3lezUp65Kc/sjDF4nlcyw5+ltG5AeebzMPMU/adKpVLU
+      1dURi8W4fPkylmURCARmXr/747sZYwgGg8WKOS/lmZvyzM7zPBzHKZk8pbRuQHnm8zDzFL0A
+      AoEAZ86cAWDv3r3FXryIiEwregHEYjEOHDhQ7MWKiMiHaB6AiEiZUgGIiJQpFYCISJlSAYiI
+      lCkVgIhImVIBiIiUKRWAiEiZUgGIiJQpFYCISJlSAYiIlCkVgIhImVIBiIiUKRWAiEiZUgGI
+      iJQpFYCISJlSAYiIlKkledDl3Y8htixrKSKIiJS9JTkCcF2XN998k2w2uxSLFxERlqAAjDFc
+      vHiReDyO4zjFXryIiEwr+hDQ1NQUo6OjtLW14XkexpiZInBdF8/z7vs+13VL6ohBeeamPLMz
+      xsz87peCUlo3oDzzeZA82bxLOpsn4LeJhALY00PvRS0AYwxXrlwhk8nQ3d2Nz+fjySefJBAI
+      zPyZuz++WzabJRQKFSvqvJRnbsozO8/zcByHYDC41FGA0lo3oDzz+Sh5jDH0j07x0/ev0T04
+      TmUkxPN7VvP4+lZ8tlXcArAsi7179wJw8uRJNm3aVMzFi4iUlUQ6xz+9dYnWugr++HO76B+b
+      4qfvX6UyEmLjyvqluQoIYPfu3Uu1aBGRsnB7eJJEOsfze1ZTXxVlZXM1Xf3jnLkxwPoVdZoH
+      ICLyceX32RhjyDuFc6ueZ8jlXQK+wqZ/yY4ARERkcS1vrKK1roJX3rvC7o2t9I1McXtokuc+
+      vQPbsnQEICLycRUO+vnKs5tpqI7yi2M36B2Z4qvPb2VFUzWWVeSTwCIiUjyWZVEdC/Py05v4
+      outh2xY+2565A4MKQETkY8yyLHxWYcP/YRoCEhEpUyoAEZEypQIQESlTKgARkTKlAhARKVMq
+      ABGRMqUCEBEpUyoAEZEypQIQESlTKgARkTKlAhARKVNLUgCu6+qB8CIiS6zoN4OLx+OcPn0a
+      Ywzt7e2sW7eu2BFERIQlOAKorq5m3759NDc3k0wmi714ERGZtiS3g+7o6OD69escOHAAY8zM
+      cJDrunied9/3uK5LNpstZsw5Kc/clGd2xhg8z8MYs9RRgNJaN6A883mYeSxT5N/CdDpNKBQi
+      mUxy+PBhXnzxxZnX8vk8gUDgvu/LZrOEQqFixZyX8sxNeWbneR6O4xAMBpc6ClBa6waUZz4P
+      M0/RjwAmJye5cOECruuydevWYi9eRESmFb0AmpqaePbZZwGw7/OEGhERKY6iF4BlWTPPoxQR
+      kaWjXXARkTKlAhARKVMqABGRMqUCEBEpUyoAEZEypQIQESlTKgARkTKlAhARKVMqABGRMqUC
+      EBEpUyoAEZEypQIQESlTKgARkTKlAhARKVMqABGRMqUCEBEpU0V/IIzjOFy6dIl0Os2WLVuo
+      qKgodgQREWEJjgCSySR1dXW0t7dz8uTJYi9eRKQkGWOYTGV5/8Itfnn8Bj0D47iet6jLtIwx
+      ZlGXcB/ZbJa3336bLVu20NbWhuu6ALiuO+vjIh3Hwe8v+gHLrJRnbsozN9d18fl8Sx0DKL11
+      U655RibS/M0vztI9ME7AZwMWv/upzTz52DLsu7aLDzPPkgwBvfHGG+zevZvm5mbgg4fDe543
+      6w8212tLQXnmpjyzM8ZgjCmZPKW0bqA887iex+snu5hK5fjfv3aAqmiIX53u5kfvXWH98npa
+      6j4YKn+YeYq+lvv6+kgmk/T29uI4DsuXL5/Z67csa6YMPmyu15aC8sxNeWbneV5J5SmlLFCe
+      efKOx/XeOJtWNrCqpRafbbFrfSu/OtnF6GSaZQ1Vi5Kn6AXQ2trKSy+9BEAoFCr24kVESo5t
+      W7TUxbg1NMlUKks0FODm4AR+v01ldPG2k0UvgEAgQHV1dbEXKyJSsvw+m08/sY6//NEJ/o9v
+      vUtlNETv8CSffnIdbQ2Vi7fcRfvOIiKyIJZlsbq1lv/lK0/y3vmbTCZzfPqJtexc14Lft3jD
+      TyoAEZESYNsWyxur+N1nt2Bg5sqf2a6MfBhUACIiJcKyrEXd4H9Y6ZxqlwdijMFxPfKOi+t5
+      LMG0DhF5ROkI4BHmeYau/jhvnOxkKJ5k86pGntu1muqKcFH3IkTk0aQjgEeUMYbekUn+4Y3z
+      NNXG+NTj7QyPp/ju25fI5JyljicijwAVwCPKGMPJK/201lfy2X3r2b2hld/+xCYGxhLcGppY
+      6ngiUiTGGNLZPJe6hzhxpZeRiRTeAoeCNQT0iDJAznEJBnz4bBvXcwn4bWzLIu8u7g2kRKQ0
+      GGOYTGb5p7cu0j86RTDgJ+9c5188s5lN7Q333EPoflQAjyjbstixtpl/eOM8xy730lAZ4kzn
+      MJGQn5VNmmgnUg6MMbx3/ia5vMs3fnsvkZCfo5d6+dmRa7Q1VFJdEZ7z/SqAR9jatjo+v38D
+      b5zoYjKZob2lht/91BYqIsGljiYiReB6hht9cTa3N1JfFcWyYPOqRg6evclEMqMC+LiyLAuf
+      Dbs3tLJpZQPJVJqaqhihgF9XAImUicI9hCq4OTRBJpcnGPDROzJFMOAjNr0j6HkeQ/EkN4cm
+      qKkI095SQ9Dvw7IsFcCj7M6kkcpoiKAPQsHAUkcSkSKyLYund7Tz7V+e4y9fOUFFJMjt4Sk+
+      ++Q6airCeJ7HiSv9vHr4KpFwgFQmz8YVDbz8iY1EQgEVwEdljMH1DDnHxR/wsIs8c09E5A7L
+      smiujfGvPruTszcGSaRzPL97De0t1diWxfB4kteO3+Dz+zewub2RyVSWv/3FWU5fG+CpLStU
+      AB+FZww3Byd47dgNBkan2LCygRf3rqGuMqISEJElYVkWtZURPrlzFQaw7vr6UDyJbVmsa6sj
+      Gg4QDvlZs6yWzv44O9a1aB7AQhljGBpL8K3XztJQHeHFvatJZXL8/evnSWfzSx1PpGiMMXie
+      IZd3yDuubj9SAu4MB98ZkbizQ1pTGSHvuAzFk7ieIZnO0zsySWtdJbeHJ3UEsFAGOHN9gLqq
+      CJ9/agPGc9mwopG/+NEJOvvjbF3dvNQRRRbdnUlHB8/e5NTVfiIhP598fBXb1zTjW8BtiwtD
+      qB6eZ/D5bA2hLrKWugr2b13O379xnuWNVYxOpKmKhdizsZW+0aniF4AxhqGhIVKpFKtXry72
+      4h+cgZzjEfD7sG0Lz4Dfb2PbFo6jiVdSHhzX4xfHbnCjd4xP7VrNVDrLK+9dwbYstq9tnnNj
+      7nmGzr4xfnmik9GJFJvaG3l+92pqdO+qReOzLZ59fDUrmqq5dnuMLasa2bamicpoCJ/PLn4B
+      ZLNZuru7SafTj1QBWBZsX9PM8Y5e3r94i9baKBe7R7HtwoMcREqNMYa849EzOM7oZIoVjdW0
+      1Ffg+w2eJzueyHD+xiC/9/xWNiyvx/UKyzh04RabVzcS8PlmzXJ7eIJ/eOMCO9Y1s3fTMk5e
+      6ee7b13i91/aTiSkK9iMMWRyDp39cZLpPKtba6ivimLbD16OlmXh99lsWtnAxpUN95wfqIgE
+      i18AoVCIxx9/nCNHjgDTtzN2Cjcvc93ZxxNd1yWXyxUt5/201Eb40v71/PJEFxPJLMvqK/iX
+      z2wkErSXPFsprJ+7Kc/sCmPo3qLnyeYdfnb0BuduDBEL+0lmHF7cs4YnH1t2z0blo6ybbDaH
+      43rYGPL5PJ4x+GzIZvPkc3mMz73v+zxjOHb5Nq31MZ7f1Y7f56OlNsr/+7OzdPWNsq6t7oHy
+      FEOx8kylcvzgYAe3hycJBXzkHI+XP7GRx1bW33OE9LDyeMYUvwDud6jn9xdiGGNmPv4wz/Nm
+      fa2YHt/QxqZVTSRSGaorooQC99/jKbZSWT93KM/s7uz0LHaec13DXLk5xjd+ey81lWE6e+N8
+      7+1LrFteR2v9B8+Z/SjrpqGmgnXL63jjZDfP7V5NIp3j2OU+PrVrNaFQkNn2VT1jcL3CXJVg
+      MIjPtgiHgtg+C2PZ9yz/fnmMgbHJFJ39caLhIGuX1RIOLiyzZwyu683sDX9UxfjdMcZwtKOP
+      TN7lm7/zJJGQn5NX+nnteCcrm2uouWtG78PKMxRPFr8AJicnuXz5Mj09PXR1dUd1PtUAACAA
+      SURBVN0zDGRZFvYsh6dzvVZsFZEQARtCJXTYWkrrB5RnLp7nLXoezzN0D0ywsqWalroKbNti
+      VWsN0XCA/rEkbY0f3C/qo2QJBS2+eGAjPztyjb977RxBv48D21awd9OyOU/oWsawc13LzL2r
+      WusrOXa5l1g4yMqm6nuW/+E8nmfouDnM99++RCjoJ5t3aK6r4Kuf2kpVLDTrMo0xJNI53j7d
+      zdkbg1RGg3xq12o2r2r8SMNgxfjdybsuXf3jbFxRP3NLh40rG3jrdDcTySx1VdGHnmdoPFX8
+      AojFYmzbto0tW7YQCJTOBlTk48SyoLWugoNne0ikc8QiQUYmUqQyeRqqo/N/g1m/r0VNRZiv
+      PLuFVCaHbdvEQgFse/6reda21fGFAxt5/XgnU+ks7c01/N4C7l01mcrysyPXeHpHO0881kY6
+      5/CdNy/w7rmbfHbfulmXm3NcfvL+VYbjSV7cu5axqTQ/PHgZv22zqb1h0U48e55heDxJ98A4
+      VbEQq1trCQV8cy7Ptixa6yu5OThBOpsnFPTRNzJFwG9TGV2ce3vVVUWKXwA+n49o9MF/AUVk
+      YXasbeZSzzD/9YfHaKqNcXtokr2PLWN5Q+X8b56DZVkE/T6CFZGP9B6fDbvWF+5dlXdcIqHA
+      vBtGgIlkhkQ6z6b2BqLhAJFQgE0rG7jUM4zrGWbbGR4eT3Ht9hi//9J2VrXU4LgeyXSOI5dv
+      s35FPX7fwy8AzzOcuT7AK+91EAkHSGcd2pur+conN1MRCc76s9qWxW9tW8m3f3mOP//RcSoj
+      QfpGpvjMvnXUVi58PX8ULXUVmgcg8nFkWRaxSJCvPbeNC91DDI0lObB1BeuX1y3oev3FymRZ
+      fOS71VZEgoQCPm4PT9JQHSXnuPQMjtNaXznnFTLe9DOyA/7CeTrbtgj4feQX8bLt+FSaXxy7
+      zktPrGPHumaS6Tzffv0cxy738uzjq5mt6yzLorEmyh9+difnO4eYSmV5ce9a2ltq5r2n/4Oy
+      LN0NVORjy7IsouEAT2xq+7VbBDxKairCfGrXal557wrHO/pIpnNYlsUX9m+Yc+PYWBOjraGS
+      145d55md7cQnM5y+NsDnn1qP7ze4tHIuo5MpHNdj/Yo6oqEA4aCfdW11dPbHeWbnKuxZT5N/
+      MLy2b8tyjGcK84wWcaLcwGhCBSDycXZn4/FobfLvZVsWezYto7k2xuWbI1REgmxb0zTvBLJw
+      0M/Ln9jEq0eu8Tc/O0MkFOC5XavYvnbxZu1Xx8JYQP9IgtqKMJmsw62hCVa11DBf57iex6Wu
+      Yd481cVUKsuOtS08u2vVnENHv4nugXEVgIiUtjvnD1a11tDeWvNrRzLGmMKltXdd6nnnfjj1
+      1VG++tw2Utk8fp9FJBRY1L3qhuooT+9o53tvXWRZYxUTiQzRUIB9m5fPuUxjDFdujvLDg5fZ
+      t2U5dVURDl24ReJQjt/55GOEAg9/Ux0M+FQAIh9nd+6943oGfxHuvVOYfVy4pHFsKk17853L
+      UH+z8w7GFIZXOvviRMMB1rXVzcwDSKZz/Op0N2euDVARDfL87jVsWV241NOyLIIBH8GPOF/H
+      GEM279DZN87YRIL1KxpprInO+3PYtsWBrStoa6jkyq1RatY0sXV105yXq0LhyV5HL91m65om
+      ntu1Gp/PpqE6yt+9do7h8RTLG6vwjCGXc0hn8/j8AXzTV17dmUF8vXeMVCbPmmW1C5pBbOuB
+      MCIfX54x9AyM84uj1xmMJ1m/vJ5PP7GWuqr5b19e2KsGx3Xv2aue7z3pbJ5/freDjpujVEaD
+      /CyZ5TP71rNvc9u8G09jDI7n/dqzNjzPcKmnMA8gPD0PoKm2gq8+t5VIyM8r713hV6e7CPh8
+      eMbQ3T/On3xxN5tXNWIMjEyk6OqPE4t8MIHs7qMHx/UKs2KnCxIgkc7x3bcvcXNwgnDA5pcn
+      u/nt39rIznWthXuBTV/q2TUwTmU0yNrWWkLT39eyLAyFK4IKVyl9sN48z2NoPEV3f5yqWJg1
+      y2pnJpPm3cK9xlzP4BkXn23PzBrPOy7vnb/Jzw5fYyqVY9fGVr789GPUV0WYSGb5h9fPc7F7
+      GM941FRE+PoL29jc3ohtFwrCm/45bdvCP12MIxNLMA9ARB6ewqxij+7BcYbHU6xsqqK1oRLb
+      shgYTfB3r51jx9pmntyynDPXBvj26+f5nz7/ONHw7FfiFDbkDu+c6ebE1X4iQT/PPr6Kneta
+      5ryCyABnrw9yc3CCP315L1WxEFdujvDjQ1dZs6yWlrqKWd/reYbrvaP88ngnw+NJtqxu4oU9
+      a6ipCM/MA/jkzlXsfWwZmel5AO+du8m2NU0cunCLjSsaeHbXKuKTaX70XgcHz/awfnk9HTdH
+      +ME7l4iEA2SyDq31lfzep7ZQFQthjKHj5ihvnOhkPJFhy+pGnt+9hspoiKOXe5lMZPifX95L
+      wDZcvhXnF8dusLK5hrrKCGeuD/Cj9zqIhQOksg4rmqr4l5/cQiwc4M2TnXzvnctEgn7SOYd3
+      z/bwr7+4m/qqCKeuDfDj964QiwRJZXK0t9TMXCK6a0Mr33vrIqev9pPNO/j9PpbVV9JQHeXo
+      pdv89U9Pz9x6/hdHr5NI5/jXn9/FO2e6OXr5Nssbq4iGA3T3j/P9ty/xv35lH9WxEOOJDK+f
+      6ORyzzD1VVFe3LuGdW31hAJ+FYBIqbt7bxzLIjC9N35nmOLHh65y7sYgVbEQE4ksL+5dw4Ft
+      KzhzfYDGmiif2beOoN9He3P1gm5fXrjj53Vu9I7x0t61JNI5fvL+VWzLYuf6ljln3nYNjLOq
+      tbYwXGIVbpQY8NsMxhOzFoCZftDSP75xgR3rWtixtpELXSN8962L/P5LO6bnAeRoqIlyoXOI
+      SMjPqpYabvTFaW+pJuu4vLB3DTvXtZB3XK73xhmMJ4lPpfnZ4Wusa6sjFPTj99lcuTnKoQu3
+      eOmJtXT1xfneWxd54rE2mmpjHLnUyw8PXuZfPruFrv44a9vqqK+KkM/nWbe8jtdPdDI2mcIC
+      Xjt2nRf3rmXr6kbS2UIhHb10m/Ur6vjJ+1f54oENfGLbSsYTGf78Ryd4/UQnz+1azWvHbvC5
+      p9azbU0zyUyOv3vtHMc7+nhmZzs+22JwLInjFY5+snmX1roKHNfjzVNdpDJ5ljdWEgn5uTk0
+      yYmOPp7fvYbznUNsWtnAv/7CbiIhP++eu8l337rEyESKUMDHd9+6CMDn92+gfyTBP755gT94
+      aScN1VEVgEgpu7ORP3jmJsc6egn6fTyzs53dG5fhsy0udY9wuWeEP315LzUVYbr6x/nHNy+w
+      Zlktjuvi9xWGEXKOi0XhgSGua2a+t3ufIZfxRIZzNwb5vee2srq1pvD+vMuhC7fYuqZp5rr6
+      D7Msi2X1lZy40leYfRwOMBRPks271M0xmckzhhNX+rBti66BcU5dTdFSX0nPwAS3hiapr4rg
+      eYb/9pOT1FdHyeYc4lMZnt7RTiwcwG9bHLl4m4pIkPhUhiu3RljTWstEMkvP4Dgdt0aoiobI
+      5BxyeZdYOMBzu1ZzrKOP9pYa2horSWbyPLWljZ8cusrAWIJl9ZVc7x3jzPUBEqksnrGwKFzl
+      MzaVJpHOcfXWKK8fv0FVLEzAb9PVP05lLETe9di6uonqijAV0RDr2+q40Rdn25omXNejIhLk
+      zPUBKqNBVjZV0dUfZ//W5bx9uptQ0EdrVSXZnEPQ7+PU1X4ObFvJ2GSaymiQWCRILu/QXFvB
+      zcEJJpNZXM8QCfkJBf0E/L7pO6sWTozfGppkYCzJFw5sIJ3Js7K5ir7RKU5e7eP5PWtUAOXK
+      8wyjkylu9MWJ3XVS7VG7Rnwud06O3eiLMz6ZZMPKJhqqf7Pb6y4WYwzjiQzXbo8S8PvYsLye
+      aDiA6xleP9HJxa5hXty7lnQuz8+PXseyLHZvbKV7IM7K5mrqqgob2OWNlVREAvSPJti+ppn3
+      zp3gP//TEZKZHJFQAAtY3Vo7PVYe5+dHrjMwNsWm9kY+/cQ66qoiM7eRPnzhFt976yLhoJ+K
+      SHDeCVQWsGtDCx03R/ivPzhGfXWU3uFJnt6+8p6bz91PKpOjq3+c7WubaamrYCieZGAsQc5x
+      Z8bcRyZSZPIuruuRyuTx+2ya6yp4fH0rhy/e4nhHHwZDwOfjwLaVGAr3Avrk46v40oGNjE6l
+      +S/fO0o6l8dQKLWTV/s43tGL5xmC07OSPWPYtqaZ147d4MjF2xhjsG2bz+5bT11VBMf1GE9k
+      +PmRa7iemb5KyZoZk7csi3PXB+kfncJn23QNjLN+eR21FWES6Rz/+buHSWcdfHbhqqQvHNgw
+      fZI7TXwqQy5fWM95xyXvuqSyeXy2zUQyy2QyW/h9oXDCORjwsXFFPT8/eo3/+4fHqIgEudwz
+      TGNNjLrKCEPxJCMTSf78h8eYTOYIBmyqYmGe3r5SJ4HL1Z2Tat976xKRUOGkWmNNjK89t5Xq
+      j8nDOYwxTCazfOdXF+gfTRD0F07k/c7Tj7FtTfO8JVDYOy7sIftse+aKi4Us9877/La9oHvk
+      3Bk6+dZr5wgGfDiuRyTYxf/46R34fDYnOvp56Ym1GGOoCAfZu2kZ7567yc51zbTWV3Ki4yr/
+      zysnGZ1M0VQbYzyRpbEmSsDvwxjDRDJDOuuQdzzqqiL4bIv+kSn+6pWTxKfS2JZF32g3Q+NJ
+      /uQLu6mIhIiG/bxzpoctqxtJZfOcujrAv/jkY3PeRM2yLCqjIf6HF7dxsWuYkYkUn3p8FWuW
+      1eKbPhmZy7t09ccZm8qwavpGdVDYoE2lsly5NUos5GdkMo3rFY5UJpIZhseTbFrZwNq2OvKO
+      y9FLvYXr2H02W1Y3cvBsD5O5HBawcUU97S3V9I9O4XqG851DZHIOU6kc6en/GgMVkQB9I1PU
+      V0WpjAbpH01QFQ0RDvq53DPM8ESKbN4tnCC2DRe6hvh0Yi3JTJ6pVI686xEJBsi7Ltm8y+hk
+      iraGSraubuRbr5/jzgyMqliQP/zMTmzbJpHOkc46LKuvZDKVZWwqg+uamauVsnmXnJPmzkoJ
+      h/yE/D5C01c83X2zfL9tEw76+dSuVXQPjNPZN4aTy+L3WTy5rYHJ+BC3ega41XWd+PgkQR9k
+      Mmly2Syh8RaunnhTBVCOplJZfnb4GtvXNk1vEGxOXunj4LmbfO6p9fg+FgUA71+4RS7v8s0v
+      P4HP8jjfPcrPj15nRXP1nEMSxhjiU2m+9/YlekemWN1Sw+eeWk9jTWxm7P1+5XDnkPtnR67R
+      NzrFmtZaPrtvPY010TlLIJNz+MmhK+zZ2MonH1+F63r88N0OfnHsBi89uZZkJscPD16mvjqK
+      47iMTaVpqokBFq11FQzGk/SNTFFTGeZGb5y2xkrqKiMcunCT1ctq+foL28BAOpvnv716mht9
+      Y9zojTM8nuRLv7WJZfVRzlwf5vDFW1zvjdNaX8HIRJpMzuHIpV4sCteM3xqaxPU8bHv2Syot
+      yyIWDvLEY22/9loqm+cH71zm2KVeXM8jGg7yO888xp6Ny0hnHaorwjRWR0mksqxoqqZncJxc
+      3sUN+vGMYXVrLRWRIAG/TUNNlFzeZWwyzauHr7F5VSNPb19JPJHh50eu886ZbnZvXEZNRZjN
+      qxqpioVoqatkbDJNW2PhaOTWUGHjH/D7iE9laKmrYGwqzVA8ybkbg6QyeXx2Ye/e8Tx6Bsbp
+      G00wlcoylc6BKfxMd9wcmmR0Ms3NwYmZK4AsIJnJ090fp7YqguN5/NHnHiebd6mMBjl88TYd
+      N0d4bvdqMlln5ncXwHPzpJMZ+voHGBroJRmP4+azeJ6Lk8tgGcMvf5FgTWs1kfFhsrf6mEpl
+      2LyqkcEboxwZruJSzwiDfbcJBPzkvQDBcIRApBJizbSsalYBlKOJZIbe4UmGx5PU10TJ5Bzi
+      k4W9Ds8z2FZh/DDvFsaFF3IJYKlxjUdX/zjrl9dTEQ2Sy+VY11bHmye7GE9k5iyATM7hhwc7
+      qKkIs2tDK5d7Rvjvr57hm1/eSywS5NbQBK8cusLtoUnWtdXxxQMbaaqNMTqR4m9+fpqtq5vY
+      t2U55zsH+f9+foZvvLyXikhw5mRu3nFxHJdAoLDnl87mGRgrbIyj07cY37q6iZ8fuYZN4aSv
+      43ozN1F782QXsXAQy4JLPSOF74thbCKN32cznsjSPTBemBiFRe/wFPFEmtqKCBaFk7yD8SSt
+      DZWsXlbD+GSKHeuaOXG1j7HJNHVVEeKTaXKOS3D6KCKddRidSOEt4AHw9/td8Yzh1NV+3jzZ
+      SW1lhNpomMGxJD945xLtzdX4fBau65F3C+ckQo4L5oNhDtu2+ed3L+OZwlCTZcHTO9oZHk8x
+      MJZg44p6fnL4GtFQgOqKEOc7h/jMk+t5emc7P3q3g4DPxjNQGQ3y4t61+H02rueRSOfIO4Xl
+      ZnJO4RGvrkd8KgMwc6RoW5DNu0ylC2PuhXX+oZ/RM9wenqJncIKm2hit9ZVksnlu9MU5dbWf
+      /ZubySQTjA4NEgv7GJvIcrPzOraX5713M1w5e5SBwTiWyeO5Du705am/Cg3QdX2QibSHZdv4
+      /aHCf4MhqmvraF7WxrGeHBVt1dQHA2QDEfY+s42ta5qpOtHJuYlTRMPBmXM3U6kc1Y3NNLaq
+      AMqSbdtk8g77ti7nc09tYCqV5f/6/tF7roF+/UQnJ6/0URkJ8eITa9mxdmEP/V4M91zH/KFC
+      mu21wu11Kzje0cv5zkESqSwNNTFsy6Jqntvr9g5P0tUfp6W+kgtdw7TUVTCRzNBxa5T25mr+
+      y/ePkszkaa6t4NjlXm4NTfK//d5TnL0xSCjgJxYJcqlrmObaCm70xrl6a5TH17eQzbscPNvD
+      kYu38Ptsnn18NXsfayMU9FNXGaarL05bQyWuZ7jRO0ZrQyXO9EZqMpXlp4evFo4+XI/4VBrX
+      8xidTDOeyMwcgdiWRSqbZzKVZXN7Iz99/xpnbwxQGQkST2RoqI6yqrWWa7fGeOtUF//xO4fJ
+      Oy4Bvw/P86iKBsnlXTI5Z2bP3/MMWcclmcnjeYXr0m8OTXL+xiCRUIBdG1qprQzPZEhl8py5
+      PsDIRIr1y+vZsKIegItdw+Qcl/FEhsGxJJGwn/6xBLeHJ2mqjjGRzDKeyGIwWCSoq4pQHQsB
+      hY2r435ok2sKz7y9MyR051XLgt0bWsk5Lt3946SzDtODKrieR9/wFCubqomE/CQzhT34O3vq
+      FZEAAb89s6y7z3tYFriuB1i4+Ryuk8d1Chtrz3UYtic5fSpF340LDFpwLpPCwpBNp0h2RwnF
+      VzPW2cn/eeIgdiAIWEQiEb78zBYsC0KRGJFqH7YvgM8fwPYHCQRDfPoLB8i8d4Wbg5NggVX4
+      F7Zls3X7LobHUwxmI2RzDk7KIxrO8dMjnaxd3khlLILf7yeVdbByDpjCMFIsUtjRUAHcxz2z
+      Jxc4jvso8bzChJOTV/oZnShc0ZBI53A9Qzbv8r23L3HwbA+rWmoYmUzxV6+c4Bsv72XHPA/9
+      hg8m1nz4ypIHZYxhMpXljROdnO8coroizAt71vBYewO2ZTGZzPL6iU7Odw5SUxHmxb1rZ15r
+      a6zkn9/tIBjwEQ76uNo7xp6Ny4jNcQ08QM7xGIon2bqmiX2b27jYNcTt4UnS2TyHL9yemVSV
+      yuRoa6zi+u0xTl8bIJd3Od85yJlrA0TDAZKZPOGAj7zj4nmGN0508sN3LxOcnrD0Nz8/AxY8
+      8Vgbn31qPf/w+gXOdw2Rd1xSWYd/9Zmdhat4gKe2rODzT60n73r87S/OYk3vmaazeVzPEPBZ
+      BAI+cnkXzy2c/I4nMnjGMJnIMjZZODrIRhyS6Rw1VWGyjksm705/H4eqaJDKWIic45JzXFzP
+      MJXKYigMS2RyhfMIJ6/2899/epp4onD+YF1bHd/88hMsb6piPJHhv/3kFMc7+nA9j1g4wO88
+      s5lPP7mOVDZPKuOQyhSGOlLZPAGfTSbnMDSRnBnzBzAUimQimcWyCs8i/rBbw5NMpXLkHO+e
+      vXEzPTRzbfr/i21BTUWETN4hlcnz+slOtq9tpn80AYDnubi5DMYYRhM5Lly+ylBvFxODYzi5
+      DMZzyecyYDxefaUXPI/bF2/MHHnZth/bH6DCqyHe6Md18hh/CH+4Cn8wTKjGx7r1y3nqE9u5
+      kGjGGk8BhZ0pn8+mbcN2fuvJ9bzdBcmekXt+Rr/PJhQKgeXD/tDzlg2Fx36evTHA2GR65uvZ
+      vIvjjjIynpz5O3Rnvdz990p3A70PYwzdA+OFqyPiCda11fHZJ9dRXz33OO6jpCISorWugsfa
+      GwgG/QT9PsJBP22NlQyOJTh66TZffW4rn9jeTjqb569+fII3TnSyZVXjrJcAQqFYOm6O8svj
+      NxibTLFtbQsv7FlD9TzT4OeSzbv88GAHqUyOLx7YyPB4ku+/fYmvPbeVFc3VfO/tSxy+eJuA
+      z6Z/NEHP4ATf+O29rFlWw/nOISyL6T1LQ9Dv4+bgBCMTKVY0Vc+5XNczXL05yqkr/UTDQRy3
+      sCc4MpkinXW4NTiB32czPJ4inXMYmz5pmUznaa6LgQWVdpCxyTTprEMinePNk50sb6ji8/vX
+      k0pneeX9a7x+vJPdG5bx2MoG/vTlvVzoGiTg97F9TTN1VRFGp/9iH+/o40L3cGEPO52nvaUa
+      z4OJ6Q2joTC0VPj/YJhIZBmZSDGRyNBcV0FzbYzugXEG40luDk1w5eYofp9Ne3M1mZyD32dz
+      a2iSrv7xwo3LbAvXM/imh07c6VmkIxMp/vGN84xNpaeHVQxXb43y/Xcu8Y3f3ss7Z7o5fOk2
+      ZvrqmMlUjh+918GaZbWMT32wEbemMztu4ShmcCz5a/8PMjmHsckUsXAI1/v1K5AyOYf4VJpc
+      /t7nEDu5DMMjca5c7yY+PMDWVXU8tiLA+GSWX524wZmxG/woOMiFY5e42TeMz2ZmaAwsztdn
+      GLw9QjrhYNk+/MEQoUgF/mCY9Zu2EYtFORuvxPaH8Pn9hZ/GsljTVsfje9ZyfDCC+dDt9yKV
+      tYxnfYwlHGzfBw/CMsCpawM8s3PVPecTZn4PXY9kJjfr0Fsyk2dgLPFrX0+kcgxPPwDoznvv
+      rHOAVCZPOusUvwA8z+P8+fOk02n27NlTMs9phcLGf3Aswd/+4iw717VwYNsKTl8f4O9+eY4/
+      +cJuYh/xPualqqYixAt71/LKe1doqYuRnL6k7pkdqxiZSOF5hhWNVURCfoKBwmzEG31xPG/2
+      8V9jDJ19cb771kX2bW6jrnIZJ64O8oN3LvH1F7YRDj7Y098Gxqa4NTjBH352J8sbqwrjs4kM
+      xzr6wIJjl3vZvraJT2xvZzCe4J8PdnDo/E1WNFUxNJ7Eti3+1Wd2Uh0L8NaZm1zqHpk57J9d
+      4Sjm6u0xAn6b3MgUrlsYvw8F/DiuR0t9BXs3LePguR7iUxmCAR/Xe+MYYGyy8Hk25+B6hv7R
+      KTavamQ8meVLv7WJ3RuXkcvlGBrPcPBcD67nEfD7aa2voLX+g8lSd64MqYgECfp9PL6hBcfx
+      OHzxNrWVYWybD/5yW+CzbfLTe8Ou5zGZzBINB/nml5+grbGS4x19/OWPTjCVyjGRyFJTEeab
+      v/MkYT90DU7xH79zmMlkduZcxZ0hNeOB53oYr/D3o28kwbY1TXzxwAYmklm+8+ZFOm6OMpXO
+      caFrmJDfx5efeYxVrTUcPNPDofO3uN47RnZ6Q21PPxfAm15OOpsnmy8cFTTVxmiqiXK9N042
+      5zCVzJDLpMimpnByWYJ+i2wmheO4MGFxxj9K/9Vz+G1org6QSGUYHk+RrAgRmWpk5GY/RwZD
+      XL4cwzU2qZxHS2MNTS0t1LYkmbLrqK+rpioWYTTh4niGJ5/eQa7mJv7+CXw+G5/PxplerytX
+      F84fhGK3f/3XxiqcPzBYVESCeNO3dE5lcuSdwvkDb3qYrqYiRCrrkMk5pDN5co47s5NhTf/L
+      TA/X5PLuvbvvd8k73gfvK4wM4d31vmzewZjCUF4s5CfveiTSebLTl9MWfes7MDBAPp9nxYoV
+      nD59mr179xY7wqwMcOb6AA01UT67bx0Bv4+VzdX8+T8f50bfGNvXtix1xIfCsix2b2iluTZG
+      x80RYpFgYeLK9HhrZTTE6yc7sX028ak0p67288RjbXM+UNsz5v9v70x/4zjPA/6be3Z3dpfL
+      5fK+RImkJOq0ZMuyHceO66RJHLdpmjZo0wRFCrRf+x/4Q/+IokVRFG2KoijaIkHSwEnrJoYd
+      u7LjS7Kog5RESpREkVxyz7mnH2ZntCtSsixLMp3MDyDm3RkO9+Hs7PM+81wvJ2aXmBwp8tyR
+      CTzPZai3i7/70TssrVSZGOy+J1l9Pwy2Re8dKSXTctmoh+6JLx7dye6xHmzH48OLK1wvh+6E
+      humgyhJ5QyOfVjBSKq7nxcrmdlhO6LL50mM7mRkv8daZJV4+MYdpuXi+j6ZIzC+VuXRtHc8P
+      UGWxlfER9pP5sxcOs2e8xBsnF/n+z04CoMgihq7wy1OL9HVnaDQt3jl3taXIb+8m8zw//PED
+      1ipNLCf015tW64vdMqAUWUJTJILAwQ88VEXC88LGbP/83yfpK2S4sFRu9YaBrqzGO+ea/O0P
+      36a/kOHs5TUIAvJGKI8oCjebx8kCXhAqwpYzgV1D3a1qVoefvjXPetUMYwWOSyal8vjeIXoL
+      BtW6xWsfhNlYogC+azFQzKAIHjfW6yyvrLN4QeHS3BIrV1ZYX/Q4H7g0Gk0sy+Kn/hwZXeHq
+      mbkwIKy3gveiiiEZyIqClgldLXVZRipq9BVFxod6+cbzB7kmn8ByPERRJAhAB/bs6ufxY8d4
+      5ZzDmruKLcBKHRAkJAkURUEQJAQxfPrx2+IAvh/gsXU9hO8HBK2PURBg52CBjYZFrWG34iPh
+      MU2VGO3Nc2OjwZWVanhN2/R7WleQJJF6yy0bdB7egvDzGug2UBWJ6+U6TeIUyQAADwNJREFU
+      DdMJ+xK1nkQ8z6dpe/j+zUkm4FNwAS0vLzM+Pk4ul+P8+fOtXibhF9J1XSzLotFokEqFBRXR
+      2LZtNjY20HUdURRpNBr3PG42m2iatmlcbzRomBZCELC6uko6pWPaHq7rsL5eoVYzaDabqKqK
+      67pUKhVUVUWSpHj/ncamaaIoykeOZVlGluWPNfY8j2q1uuXvWJaFJEmbxobi8dhkEVlWsK06
+      604TXZJ57kA///nGRU6cDgtrRnvSPDXTz/p6GVEUURQFy7I6xgECjaaJqshsrK8jCFDZaOC6
+      LvVGk7W1NQRBQFEUbNvuGAOoqrrlOKsJpJWAH742yxP7hrm+WuWdM1f4nScm8e0mvu/zi/cu
+      YNsma1WLucurzIwXqWysk1LCKtj/+PmpsMGW76PJEngu5XI5fK1pOI7TMV4tbyCJcOHKCr86
+      c5mCoZFNqVxfLZPLpJAlgf07imiKRNPyOHVxBUVwMS0Lz/P5p5c/oJhPcX2tjiBAEPg0axsc
+      293Py29f5OLVNSAs9X/x8THMRh1Hkra8R+sNGxGf3z4yEhZBuTaTg6OcXlhldXWFtCYhALbt
+      YtsuCGFgVPBsxnozvC5AShawbZu0JqHJIkMFnayS561ZldOXVji7uIrr+ewc6GK8qKIKLgOF
+      FFfXmmR0GT8A0w4YK6XI6iIpVeLHb5zj5NwStXqDhWtlRos6Z2dPUr2xwPy56/zlX81SMDTm
+      F6/RMG1edc6wsFxh8UaVyHYWJAVRkqiu6tSq6xD4iIqOomrkDIlAkDhwZB993Qaz5iB+ANGS
+      WgICQz0ZDh7ew+sLodXbjqZrSLgYaR23ZrbOBVUWyaVkzEaNvoLOmUXiVF7H9dAUiWJWBcKn
+      lXhejlIzXZtAEFqZSGGbagDHC8D3MTQJVRapNmw+uLAcy5NNydhmAwjjLe/OXY+PiYJAtVpB
+      aM0Q7U+oAiALIASbJx0BEAMXRRbx/YArK9XW/RbKbTaqpDUNqeXOw/XiJ0ZDl3Cs5sOfAFRV
+      pdlsYhg3H3UjN1AQBGiaFit/IB4ritKamTv33+/x0d0qf/PDX3Fyscr4gMy7566hqioHpkZI
+      p2/KZtv2Q5HnbsefVJ50OrSsBEHg+eMz7J0cZfZSuPjGvh0l8oYeB5MEIcxeuHV8bGaUf33l
+      Q8YHCnQbKm/O3qC3kGViqCdu3Xu7c+80/u5XjvLjN87x/Z+dwtBVXnxqD4en+rFsl4M7V3nz
+      9FXen1vG9QMkUeTpQxP09nTzW4/u4q9/8DaCKJNPy1y8tsGR3UPsGulFV6X477f/X0EQMDkK
+      ucw8+3cOMD7QxeylFc5frXB4eoRiPs3P31tk/moFVRaxHI8dgwWO7duBh8ybs9cp5lNoskRP
+      PsX1ss/EYDd9vSV+9+kCuq7zf6evIEsCzxwa5+mDo6itXu9bfTZ6yueR6WE+vLzBl4/tomk6
+      /OjN83z+4Bh9pRL7Jhz+972F0A3QUnJdhs7+yWF6uzJcWq7x2geLIIRPUb/3+b3s2RE+yaaN
+      PP/+i9Msl+tMDnfz5aOjFLI61VqNZ/cW+cefvM2law0822KgO02XB6d+dQN9Y5Z3zy5xNggg
+      CFAVkYOFnSxclBnNunzoN1i64XCjooOc4cjhab775cOcvLTBv/1iFknREUWJAOjOpviTP3qK
+      2YVV/uEn77X+hfBz6OlK8/yTh8lldH55vsrptgCpJAp84cguDk8NMTWywOxC57FnDk8wOTbI
+      joGr9BaMMLVUkVgu19k13ENPd4EvPjrJ6YUya5UmjhveO8f2DnNw1yDrdYe//693OzKPJga6
+      OLJnhKbt0lsIO6z6rfCDIMCRPcMcmR7mkalrHVlJubTKV45PI4sCPzqxQOMWF+RoX57h/hLT
+      YyUur3T687tzKXaPlVjeaPKD1850eIKGe3Mcmh5m7nqNxeUKcNNTVMylmRofIm/ozLx/mffn
+      rsdB9lxa46tP7EYUBaSXXnrpJR4i6XSaV199laWlJaampsjn83ELVd/3kWUZUby5oEM09jwv
+      VnDt++/nWBAEcmmNgaLBq+8v8NrJRRRZ4g+enaHUlUEUxYcqz8cZ3w95oteiGC5Nt2u4m9G+
+      PLqmxMdv/k7nWBDCxTdyGY1X3r3Eidmr9HRl+Prn9tBl6Hc896PGaV1hZkcvx2dGeHLfCGN9
+      XUiiiKrI7BwqhL1haha9XRl+/5m9HGilrPYVDHq7MsxfLVOumjy2d4hvPjtDPqPd8X2NlIYi
+      i/zL/5zizQ8vc/5KmReOT/G5g2Nk0xo7hwrcWG9g2h5Toz18+4v76es2GChmWVze4OzCKtWG
+      TbVh8czhcb76+BSKEvZpmR7t4fjMMMdnhtgzHvbVufU6to9FUQizsTaavPzWPOevlHly3yhP
+      7R9BkSWKuTR102Gt0kRXw3jB156YZu9oAd+1GS5qdGkBhuxwZMxgKBdwYX6O+fk5li/Pkxeq
+      ZOyrGP4aSwtzzM7OMj83R2DXGCnIDHenODDRwxeO7GK4v4fBgQGOHthNaXAEOdvH1O49/MW3
+      X+TbX3+eA/v3c/SRg8zsncaSsmS6Sjz96D7+/BtPs3vnKBPDfaw3fJbWGgSCQDaj84fP7eOx
+      PcOM9xcIgIvXNnBcj8FSlu999RH2jveS1hV2DnZzbbVGudoko6u8cHySF5+aJp/R2TlUiI8Z
+      KZUXnpjia09MkzM0UqrMidklMrrKes0io4etF4yURjGfYbAnS7VhoasyT+4f4ZvPztCVTTHa
+      l48D457vs3ukh++98AhjfV3k0hpGSuXM4iqmHbZ0ODo9yLee20d3LsXUaBHX9WlaDiOlHH/8
+      /H6OTg/S05WhYTqcv1KOLfHR3hx/+pVDYd1At8HZxdW4BiGlynzz2Rke3T3IcG+OpZUqN9br
+      BEBPPsV3vnSQveMlBooGZxZW40yplCbzrS/M8MjUIGlNYXq0SNNyMO1wgfrvfOkAhyYH6Mmn
+      EYLgNtGFB0QQBFiWheu6ZDKZDt+n4zgoytbBQsuywnSohyBfAFitlDdNlVBlaZOP9mHJc7ds
+      B3mi4KFpuzRMk5yRjjtXPsj3jIp4otJ4QbhpzQdBQNN2aZoWeSN9133tXc/n5Pwyl1cqjPd3
+      MT1S7MiAspywsZimyHEPmSAIe8/88tQil29U2TVU4NHdQ5t6LPm+j+u6qOrdJRU4jsNGpUrD
+      tKlWq+iqRKNex/M8KpUK9abFyfOXubFWJZ8SKeX1uPVCEASoqoqmaciyTCaTQVEUMpnQoMnn
+      87iuS7FYRJIkcrncJqMIiPe1Xx/TdhEFAV2T43Tf+B5wXFzXQ2tlmUXH6qbNyfllVipNJoe6
+      mRgsxPEd1/NZ3WhSbTQpdRnkDD2uTYmK0TbqJrIkUsjq8YIvtzsWXuuAyzcqzC6skE1r7NtR
+      IpvWOmW1XVzfR1fljk6rnh/2Z6o3THq6DNK60nHs0rV1ZhdWyBs6+yd6ybX93Zv3pICuKkQf
+      v+W4nDi9xAfzy3RldZ45NM5A0YjPWy7Xef3UIpW6xaFd/ewdL8XXp1K3eH/+OuvVBvsn+hnp
+      zceFatfLNV4/eZlqw+LwZD97xkrxvR4t0hNme0nxdwR4+BPAndgOE8DdkshzZz7r8mz1tbib
+      iSzOuWbrRdiDIKBWq2GaJq7rYts2zWYY8IziX6Zp0mw2cRyHWq0WK/LofMMIV9gyDANJkshk
+      MmFMxzBQFIV0Oo2maei6HruS2hV5+/Zers0n4W6u6/2U514/x4+S5xPfH60bJIolbDrO5vsn
+      OmbZNlrLeLj12O3uu9uxfXIwExK2EXerJCzLotls4rpurKwrlUrY3XN9PX4dWeu+7+P7Pp4X
+      Zqbouo6qqiiKQiqVQtM08vk8xWKRbDaLLMtks9nYWofNSrxdwW93HracD+r97vXvRufd7vT4
+      +Eccu/X973TenUgmgISENhqNBrZtd2wdx6HRaMQWeru1HlnnkQWWy+XirSAIZLNZ+vr6yGaz
+      SJKEYRjIsoyqqhiG0eFqudVKT0h40CQTQMKvLY7jUG/5ysvlMpIkUavVcF2XarUap85Gr13X
+      7XC1pNNpJElC1/U4O61QKKBpWuxmSafTyLIcK/5blfhW1vnHjQEkJDwokgkg4TNDpLyjbbPZ
+      xLZtTNPssNAjhQ7E1rnneeTz+dhnLooi2WyWUqlELpeL96uqSiaTQdO0tsf1zVZ6QsKvA8kE
+      kPCpcKvv3HXd2Frfyjr3PC+2zn3fJ5VKoaoqqqrGFno+n6enpycOhkZB0mw2i+u6cSDvs+g7
+      T0h4ECQTQMInxvf9TUq8XC7HFdjtFnq77xxCC73dKs9kMrGvPJPJxAHQKCCay+WQZfmerPPt
+      1HcqIWE7kHwjEjbRbDYxTTMOfkbB0CiTxfM8arVanKbo+35HMDSTyRAEAdlsNvadF4vF2L0S
+      baMMF+i0yqNtYp0nJDxYkgng1xzf9ztcKpG1fqsSdxwnVvztWS1RemJkhUf557lcriOzRVGU
+      +LUghK0pIj96oswTErYnyQTwGaNer2PbNpZlYZpm/BPtb7fSK5WwP4jf1ku93dUSVYSWSiVS
+      qVRcOBTlpkeV2u1WebT9KIXueR6SdPu1AxISEj59kgngU6S9OKjdOm8PfLZnvjiO02Gda5oW
+      l/hHwdBsNks+n49L+tt951sFPxPrPCHhN5dkArhPRCX+rut2FA+1pym2u1tqtVp8XkSUtdJe
+      4t/b29vhN1dVlVQq1dEtE8Kcd1VVkyKihISEuyaZAG5DpKSjzBbf92NrfX19Pe7hElnvWxUR
+      KYoS92RRFKUjTTFqvCVJUlzify+ulgjXdRPln5CQ8LH4jZgAgiCIXSr1ej2uEI2U+1Yl/tF5
+      EVFpf7SNqkLbc86jbou3FhFF28TVkpCQsJ34TE4AkZKO0hMjRe44DtVqdVMjrihNEYjTFGVZ
+      jouJ0uk0PT09cRA0UuhRZgtsts4dx9lW3S4TEhISPi7bagLwfZ8LFy50BEAjV0zkQ7csa1MR
+      UbvvPOqamM1mO7optqcrJtZ5QkJCwjZbD8B13Q5feju+79/Wx32rAn8YvvDtluaYyHNntpM8
+      QRCuT7xd5NlO1wYSeT6K+ynPtnoCiBYx34o7LRbzaZHIc2cSebYmCAJc19028sD2uTYRiTx3
+      5n7J8/83qSErKXW2PwAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
